@@ -64,14 +64,13 @@ export default function Home() {
 
             <motion.h1 className="text-4xl md:text-7xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-gray-800 to-[#F97316]"
               variants={fadeUp}>
-              E-Commerce Website Development Pune That Drives Real Sales
+              UI/UX Design Company in Pune Creating Exceptional Digital Experiences
             </motion.h1>
 
             <motion.p className="mt-8 text-lg text-gray-600"
               variants={fadeUp}>
-              Expert e-commerce website development in Pune specializing in online store setup, payment integration,
-              and sales optimization. We build high-converting e-commerce websites that increase sales, improve customer experience,
-              and scale your online business using proven, data-driven strategies.
+              Award-winning UI/UX design company in Pune specializing in user-centered design, interface design, and experience optimization.
+              We create beautiful, intuitive digital products that users love and businesses trust. Transform your digital presence with world-class design.
             </motion.p>
 
             <motion.div className="flex flex-col md:flex-row gap-4 justify-center mt-10"
@@ -106,22 +105,22 @@ export default function Home() {
           <div className="max-w-7xl mx-auto text-center">
             <motion.div initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-6">
-                Why Choose BizOn Digital - E-Commerce Website Development Pune?
+                Why Choose BizOn Digital - UI/UX Design Company Pune?
               </h2>
 
               <p className="text-gray-600 max-w-3xl mx-auto">
-                As Pune's leading e-commerce website development experts, we combine stunning design with proven sales strategies
-                to build online stores that convert. Our methodology ensures seamless checkout, secure payments, and maximized revenue.
+                As Pune's leading UI/UX design company, we combine creative excellence with user research to craft digital experiences that delight.
+                Our user-centered approach ensures every design decision is backed by data and drives real business impact.
               </p>
             </motion.div>
 
             <motion.div className="grid md:grid-cols-3 gap-8 mt-14" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-            <Feature title="🛒 E-Commerce Expertise"
-            desc="Specialized in building high-converting online stores with secure payments, inventory management, and sales optimization for Pune businesses."/>
-            <Feature title="💰 Sales-Focused Design"
-            desc="Our e-commerce websites are built to maximize conversions, reduce cart abandonment, and increase average order value consistently."/>
-            <Feature title="🔧 Complete E-Commerce Solutions"
-            desc="From store setup to payment integration to marketing - everything you need to scale your online retail business."/>
+            <Feature title="🎨 UI/UX Design Expertise"
+            desc="Specialized in creating user-centered, visually stunning interfaces and digital experiences that users love."/>
+            <Feature title="✨ User-Focused Design"
+            desc="Our designs are built on deep user research, accessibility best practices, and proven design patterns."/>
+            <Feature title="🚀 Complete Design Solutions"
+            desc="From wireframes to prototypes to final implementation - comprehensive design services for all your digital needs."/>
             </motion.div>
           </div>
         </section>
@@ -130,7 +129,7 @@ export default function Home() {
         <section className="bg-gray-50 py-16 px-6">
           <div className="max-w-7xl mx-auto text-center">
             <h3 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-8">
-              Trusted by 120+ Online Stores Across Pune & India
+              Trusted by 120+ Brands Across Pune & India
             </h3>
             <motion.div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center"
               variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
@@ -150,38 +149,38 @@ export default function Home() {
 
             <motion.div className="text-center mb-14" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                E-Commerce Website Development & Digital Marketing Services Pune
+                UI/UX Design Services Pune
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Complete e-commerce solutions for retailers looking to build or scale their online store
+                Comprehensive design services for brands creating exceptional digital experiences
               </p>
             </motion.div>
 
             <motion.div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
 
-              <ServiceCard title="�️ E-Commerce Store Development"
-                url="https://bizondigital.com/services/ecommerce"
-                desc="Custom online store development with secure payments, inventory management, and mobile-optimized checkout for Pune retailers."/>
+              <ServiceCard title="🎨 User Interface Design"
+                url="https://bizondigital.com/services/branding"
+                desc="Beautiful, intuitive interface design that delights users and aligns perfectly with your brand identity."/>
 
-              <ServiceCard title="💳 Payment Gateway Integration"
-                url="https://bizondigital.com/services/ecommerce"
-                desc="Seamless integration of PayPal, Stripe, Razorpay, and local payment options. Secure, fast, and reliable transactions."/>
-
-              <ServiceCard title="📊 Sales Analytics & Optimization"
-                url="https://bizondigital.com/services/ecommerce"
-                desc="Real-time sales tracking, customer behavior analysis, and conversion rate optimization to maximize revenue."/>
-
-              <ServiceCard title="🔍 E-Commerce SEO"
-                url="https://bizondigital.com/services/seo"
-                desc="Product page optimization, schema markup, and strategies to rank your products higher in search results."/>
-
-              <ServiceCard title="📱 Mobile Store Optimization"
+              <ServiceCard title="✨ User Experience Design"
                 url="https://bizondigital.com/services/web-development"
-                desc="Fully responsive e-commerce design ensuring perfect shopping experience on phones and tablets."/>
+                desc="Data-driven UX design based on user research, testing, and behavioral insights to create seamless journeys."/>
 
-              <ServiceCard title="🚀 E-Commerce Marketing"
-                url="https://bizondigital.com/services/social-media"
-                desc="Email marketing, social commerce, and campaigns designed to increase sales and customer lifetime value."/>
+              <ServiceCard title="🎯 Wireframing & Prototyping"
+                url="https://bizondigital.com/services/branding"
+                desc="High-fidelity prototypes and interactive wireframes to visualize ideas and validate concepts before development."/>
+
+              <ServiceCard title="� Mobile App Design"
+                url="https://bizondigital.com/services/web-development"
+                desc="iOS and Android app design with intuitive navigation, gesture design, and platform-native best practices."/>
+
+              <ServiceCard title="🌐 Web Design"
+                url="https://bizondigital.com/services/web-development"
+                desc="Responsive web design that works flawlessly across all devices with stunning visuals and smooth interactions."/>
+
+              <ServiceCard title="♿ Accessibility & UX Audit"
+                url="https://bizondigital.com/services/branding"
+                desc="Comprehensive design audits ensuring WCAG compliance, usability testing, and recommendations for enhancement."/>
 
             </motion.div>
 
@@ -200,17 +199,17 @@ export default function Home() {
 
             <motion.div initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-6">
-                About BizOn Digital - E-Commerce Website Development Experts Pune
+                About BizOn Digital - UI/UX Design Experts Pune
               </h2>
 
               <p className="text-lg text-gray-600 leading-relaxed">
-                We are e-commerce website development specialists in Pune dedicated to helping online retailers scale their business.
-                Since 2017, we've helped 120+ brands like yours increase sales through custom store development, payment integration, and conversion optimization.
+                We are UI/UX design specialists in Pune dedicated to helping brands create exceptional digital experiences.
+                Since 2017, we've helped 120+ companies like yours enhance their digital presence through thoughtful design, user research, and strategic thinking.
               </p>
 
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Our team combines technical expertise in e-commerce development with deep understanding of online sales optimization,
-                ensuring every store we build is not just stunning, but also generates real revenue for your business.
+                Our team combines design expertise with deep understanding of user behavior and business goals,
+                ensuring every design we create is not just beautiful, but also drives meaningful engagement and business results.
               </p>
 
               <div className="flex gap-4 mt-8">
@@ -239,20 +238,20 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <motion.div className="text-center mb-16" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                How We Build E-Commerce Stores - Development Process
+                How We Design - UI/UX Design Process
               </h2>
               <p className="text-gray-600">
-                Our proven 6-step process ensures your store is built for sales, conversions, and scaling
+                Our proven 6-step user-centered design process ensures your product is intuitive, beautiful, and effective
               </p>
             </motion.div>
 
             <motion.div className="grid md:grid-cols-3 gap-8" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-              <Process num="01" title="Discovery" desc="Understand your products, target customers, and competitive landscape."/>
-              <Process num="02" title="Strategy" desc="Build e-commerce roadmap with payment, inventory, and marketing strategy."/>
-              <Process num="03" title="Store Development" desc="Develop secure, fast, mobile-optimized e-commerce store with integrations."/>
-              <Process num="04" title="Payment & Integrations" desc="Set up payment gateways, inventory management, and shipping solutions."/>
-              <Process num="05" title="Launch" desc="Deploy your store, configure analytics, and set up email marketing."/>
-              <Process num="06" title="Growth & Optimization" desc="Monitor sales, optimize conversions, and scale through data-driven improvements."/>
+              <Process num="01" title="Discovery & Research" desc="Understand your users, business goals, and competitive landscape through interviews and analysis."/>
+              <Process num="02" title="Strategy & Planning" desc="Define user personas, user journeys, and design strategy aligned with business objectives."/>
+              <Process num="03" title="Wireframing & Prototyping" desc="Create wireframes and interactive prototypes to validate concepts and design solutions."/>
+              <Process num="04" title="Visual Design & UI" desc="Develop beautiful, consistent visual design system and polished user interfaces."/>
+              <Process num="05" title="Usability Testing" desc="Conduct user testing to identify issues and gather feedback for refinements."/>
+              <Process num="06" title="Launch & Iteration" desc="Deploy designs and continuously monitor performance, gather feedback, and improve."/>
             </motion.div>
           </div>
         </section>
@@ -262,11 +261,11 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <motion.div className="text-center mb-16" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                Success Stories from Our E-Commerce Clients
+                Success Stories from Our Design Clients
               </h2>
 
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Discover how online retailers in Pune and across India have scaled their sales with our e-commerce development expertise.
+                See how brands in Pune and across India have transformed their digital presence with our world-class UI/UX design expertise.
               </p>
             </motion.div>
 
@@ -294,8 +293,8 @@ export default function Home() {
             </motion.div>
 
             <motion.div className="grid md:grid-cols-2 gap-12" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-              <TeamMember name="Rahul Wanchoo" title="Founder & E-Commerce Strategist" desc="E-commerce specialist with proven expertise in scaling online stores. Passionate about helping brands maximize sales through optimized store design and data-driven strategies."/>
-              <TeamMember name="Suresh Khorate" title="Lead Developer & UX Designer" desc="Expert in building high-performance e-commerce stores that convert. Specializes in payment integration, mobile optimization, and creating exceptional shopping experiences."/>
+              <TeamMember name="Rahul Wanchoo" title="Founder & Design Strategy Lead" desc="Design strategist with proven expertise in transforming brands through beautiful UI/UX. Passionate about user-centered design and helping brands create meaningful digital experiences."/>
+              <TeamMember name="Suresh Khorate" title="Lead UI/UX Designer" desc="Expert in creating stunning, intuitive user interfaces and seamless experiences. Specializes in design systems, interaction design, and creating designs that users love."/>
             </motion.div>
           </div>
         </section>
@@ -305,31 +304,31 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <motion.div className="text-center mb-12" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                E-Commerce Website Development Questions
+                UI/UX Design Questions
               </h2>
               <p className="text-gray-600">
-                Common questions about our e-commerce store development and online sales optimization services
+                Common questions about our UI/UX design services, design process, and deliverables
               </p>
             </motion.div>
 
             <motion.div className="space-y-4" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-              <FAQItem q="What payment gateways do you integrate?"
-                a="We integrate Razorpay, Stripe, PayPal, and other local payment options. All integrations are secure, PCI-compliant, and optimized for maximum conversion rates."/>
+              <FAQItem q="What is your UI/UX design process?"
+                a="We follow a user-centered approach: Discovery & Research → User Personas & Journeys → Wireframing → Visual Design → Prototyping → Testing → Implementation."/>
 
-              <FAQItem q="How can you help increase my online sales?"
-                a="Through optimized product pages, conversion rate optimization, strategic SEO, mobile store optimization, and email marketing automation tailored for e-commerce."/>
+              <FAQItem q="What deliverables do you provide?"
+                a="We deliver user research documents, wireframes, interactive prototypes, high-fidelity designs, design systems, reusable components, and design handoff documentation for developers."/>
 
-              <FAQItem q="Can you help with cart abandonment issues?"
-                a="Absolutely! We implement abandoned cart recovery strategies, one-click checkout, guest purchasing options, and re-engagement campaigns to recover lost sales."/>
+              <FAQItem q="How long does a typical design project take?"
+                a="Website redesigns typically take 8-12 weeks depending on scope. App design projects range from 10-16 weeks. We can also provide expedited timelines for urgent projects."/>
 
-              <FAQItem q="What is your e-commerce SEO expertise?"
-                a="We specialize in product page optimization, schema markup, keyword research for products, inventory-focused SEO strategies, and competitive analysis to rank your products higher."/>
+              <FAQItem q="Do you conduct user research and testing?"
+                a="Yes! User research, usability testing, and iterations are core to our process. We validate designs with real users to ensure they meet actual user needs."/>
 
-              <FAQItem q="How quickly can I start selling online?"
-                a="Most stores launch in 4-6 weeks. We handle everything from store setup, payment integration, to product uploading and marketing campaign setup."/>
+              <FAQItem q="Can you design both web and mobile apps?"
+                a="Absolutely! We specialize in web design, iOS app design, Android app design, responsive design, and cross-platform digital experiences."/>
 
-              <FAQItem q="Do you provide post-launch support?"
-                a="Yes! We offer ongoing support including sales optimization, store updates, security monitoring, and performance analytics to maximize your revenue continuously."/>
+              <FAQItem q="Do you provide ongoing design support after launch?"
+                a="Yes! We offer post-launch support including design iterations, analytics review, usability monitoring, and continuous optimization recommendations."/>
             </motion.div>
           </div>
         </section>
@@ -339,12 +338,12 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <motion.div initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
-                Ready To Launch Your E-Commerce Store?
+                Ready To Transform Your Digital Design?
               </h2>
 
               <p className="text-xl opacity-95 mb-10">
-                Schedule your FREE 30-minute consultation with our e-commerce specialists in Pune. 
-                Get a customized store strategy, competitor analysis, and sales optimization recommendations.
+                Schedule your FREE 30-minute consultation with our UI/UX design experts in Pune. 
+                Get design audit, project scope, timeline, and investment estimation with no obligations.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -540,34 +539,34 @@ function ClientLogo({name}){
 
 const testimonialData = [
   {
-    company: "Online Fashion Boutique",
+    company: "Tech Startup",
     name: "Priya Sharma",
     stars: 5,
-    text: "BizOn Digital built our e-commerce store and within 3 months, our online sales tripled! Their payment integration and SEO optimization made a huge difference. Best investment for our business!"
+    text: "BizOn Digital's UI/UX design completely transformed our app. The user-centered approach, beautiful interface, and seamless experience helped us increase user retention by 40%. Fantastic design expertise!"
   },
   {
-    company: "Artisan Coffee Co",
+    company: "E-Commerce Brand",
     name: "Rohan Patel",
     stars: 5,
-    text: "Our conversion rate jumped from 1.2% to 4.8% after they optimized our store. Their e-commerce expertise is unmatched. The mobile store experience is flawless!"
+    text: "Their design improved our conversion rate significantly. The research-driven approach and attention to detail in every interaction was outstanding. Highly professional UI/UX team!"
   },
   {
-    company: "Electronics Retail Store",
+    company: "SaaS Company",
     name: "Neha Desai",
     stars: 5,
-    text: "Incredible work on our online store! The payment gateway integration is smooth, inventory management works perfectly, and our monthly revenue increased by 250% in 6 months!"
+    text: "Incredible work on our product redesign! The new interface is intuitive, visually stunning, and users love it. Our NPS score improved dramatically after the redesign!"
   },
   {
-    company: "Organic Beauty Products",
+    company: "Digital Media Platform",
     name: "Aisha Khan",
     stars: 5,
-    text: "From zero to ₹5 lakhs monthly sales in 9 months. Their e-commerce marketing strategies and conversion optimization are outstanding. Highly professional team!"
+    text: "From wireframes to final design, their process was collaborative and transparent. The UI/UX design is world-class and our platform feels premium. Highly recommended!"
   },
   {
-    company: "Home Decor Exports",
+    company: "Mobile App Studio",
     name: "Vikram Singh",
     stars: 5,
-    text: "Fantastic e-commerce development! They integrated Razorpay seamlessly, optimized our product pages for search, and our online sales are now our primary revenue stream. Exceptional!"
+    text: "Best UI/UX design team in Pune! They brought our vision to life with beautiful interfaces and thoughtful user experiences. App ratings improved from 3.2 to 4.8 stars!"
   }
 ];
 
