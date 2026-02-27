@@ -12,14 +12,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "E-Commerce Website Development Pune | Online Store Solutions | BizOn Digital",
-  description: "BizOn Digital - Expert e-commerce website development Pune. Build high-converting online stores with secure payments, SEO optimization, and sales-focused design. Free consultation. 4.9★ from 120+ stores.",
-  keywords: "ecommerce website development Pune, online store development Pune, e-commerce website design, payment gateway integration, e-commerce SEO Pune",
+  title: "Digital Marketing Agency in Pune | Top Digital Marketing Company | BizOn Digital",
+  description: "BizOn Digital is a leading digital marketing agency in Pune offering SEO, PPC, social media, content, and consulting services. Best digital marketing company in Pune with proven results.",
+  keywords: "digital marketing agency in Pune, best digital marketing company in Pune, top digital marketing agency Pune, digital marketing services in Pune, digital marketing consultants in Pune",
   viewport: "width=device-width, initial-scale=1",
   authors: [{ name: "BizOn Digital", url: "https://bizondigital.com" }],
   openGraph: {
-    title: "E-Commerce Website Development Pune | BizOn Digital",
-    description: "Expert e-commerce store development and online sales optimization in Pune",
+    title: "Digital Marketing Agency Pune | BizOn Digital",
+    description: "Leading digital marketing agency in Pune delivering SEO, PPC, social media and content marketing"
     url: "https://bizondigital.com",
     siteName: "BizOn Digital",
     images: [

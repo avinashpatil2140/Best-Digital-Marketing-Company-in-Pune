@@ -1,4 +1,5 @@
 "use client";
+import Head from "next/head";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -30,6 +31,10 @@ export default function Home() {
 
   return(
     <main className="bg-white text-gray-900">
+        <Head>
+          <title>Digital Marketing Agency in Pune | Best Digital Marketing Company</title>
+          <meta name="description" content="Looking for a digital marketing agency in Pune? BizOn Digital is the best digital marketing company in Pune providing top digital marketing services in Pune with experienced consultants." />
+        </Head>
 
         {/* NAVBAR */}
         <nav className="sticky top-0 bg-white/80 backdrop-blur-lg border-b z-50 shadow-sm">
@@ -64,13 +69,13 @@ export default function Home() {
 
             <motion.h1 className="text-4xl md:text-7xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-gray-800 to-[#F97316]"
               variants={fadeUp}>
-              UI/UX Design Company in Pune Creating Exceptional Digital Experiences
+              Top Digital Marketing Agency in Pune Driving Real Business Growth
             </motion.h1>
 
             <motion.p className="mt-8 text-lg text-gray-600"
               variants={fadeUp}>
-              Award-winning UI/UX design company in Pune specializing in user-centered design, interface design, and experience optimization.
-              We create beautiful, intuitive digital products that users love and businesses trust. Transform your digital presence with world-class design.
+              Award-winning digital marketing agency in Pune delivering SEO, PPC, social media, content marketing and more.
+              As the best digital marketing company in Pune, we provide top digital marketing services in Pune and expert consultants to build your brand online. Transform your online presence with data-driven strategies.
             </motion.p>
 
             <motion.div className="flex flex-col md:flex-row gap-4 justify-center mt-10"
@@ -87,7 +92,7 @@ export default function Home() {
                 Explore Our Services
               </motion.a>
 
-              <motion.a href="https://wa.me/917030323838?text=Hello!%20I%27m%20interested%20in%20business%20website%20design%20services%20in%20Pune."
+              <motion.a href="https://wa.me/917030323838?text=Hello!%20I%27m%20interested%20in%20digital%20marketing%20services%20in%20Pune."
                 className="bg-gray-900 text-white px-10 py-4 rounded-full font-bold hover:bg-gray-800 hover:shadow-xl transition transform hover:-translate-y-1 text-center"
                 variants={scaleUp}>
                 📞 Schedule Free Call
@@ -105,22 +110,22 @@ export default function Home() {
           <div className="max-w-7xl mx-auto text-center">
             <motion.div initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-6">
-                Why Choose BizOn Digital - UI/UX Design Company Pune?
+                Why Choose BizOn Digital - Top Digital Marketing Agency Pune?
               </h2>
 
               <p className="text-gray-600 max-w-3xl mx-auto">
-                As Pune's leading UI/UX design company, we combine creative excellence with user research to craft digital experiences that delight.
-                Our user-centered approach ensures every design decision is backed by data and drives real business impact.
+                As Pune's leading digital marketing agency, we combine strategic expertise with data analysis to deliver campaigns that convert.
+                Our results-driven approach ensures every marketing decision is backed by research and drives real business impact.
               </p>
             </motion.div>
 
             <motion.div className="grid md:grid-cols-3 gap-8 mt-14" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-            <Feature title="🎨 UI/UX Design Expertise"
-            desc="Specialized in creating user-centered, visually stunning interfaces and digital experiences that users love."/>
-            <Feature title="✨ User-Focused Design"
-            desc="Our designs are built on deep user research, accessibility best practices, and proven design patterns."/>
-            <Feature title="🚀 Complete Design Solutions"
-            desc="From wireframes to prototypes to final implementation - comprehensive design services for all your digital needs."/>
+            <Feature title="📈 SEO & Analytics Expertise"
+            desc="Optimizing websites for search and using analytics to guide growth and improve visibility in Pune and beyond."/>
+            <Feature title="🎯 Data-Driven Campaigns"
+            desc="Our marketing strategies are based on research, audience insights, and measurable KPIs to maximize ROI."/>
+            <Feature title="🚀 Full-Service Marketing"
+            desc="End-to-end digital marketing services including SEO, PPC, social media, content, and email marketing."/>
             </motion.div>
           </div>
         </section>
@@ -149,38 +154,37 @@ export default function Home() {
 
             <motion.div className="text-center mb-14" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                UI/UX Design Services Pune
+                Digital Marketing Services Pune
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Comprehensive design services for brands creating exceptional digital experiences
+                Comprehensive digital marketing services for brands seeking growth across SEO, PPC, social media, and more
               </p>
             </motion.div>
-
             <motion.div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
 
-              <ServiceCard title="🎨 User Interface Design"
+              <ServiceCard title="🔍 SEO Optimization"
                 url="https://bizondigital.com/services/branding"
-                desc="Beautiful, intuitive interface design that delights users and aligns perfectly with your brand identity."/>
+                desc="Improve your search engine rankings and drive organic traffic with our SEO specialists."/>
 
-              <ServiceCard title="✨ User Experience Design"
+              <ServiceCard title="💡 PPC & Paid Ads"
                 url="https://bizondigital.com/services/web-development"
-                desc="Data-driven UX design based on user research, testing, and behavioral insights to create seamless journeys."/>
+                desc="Maximize ROI with targeted pay‑per‑click campaigns on Google, Facebook, and more."/>
 
-              <ServiceCard title="🎯 Wireframing & Prototyping"
+              <ServiceCard title="📱 Social Media Marketing"
                 url="https://bizondigital.com/services/branding"
-                desc="High-fidelity prototypes and interactive wireframes to visualize ideas and validate concepts before development."/>
+                desc="Engage your audience across platforms with creative social media strategies and management."/>
 
-              <ServiceCard title="� Mobile App Design"
+              <ServiceCard title="✍️ Content Marketing"
                 url="https://bizondigital.com/services/web-development"
-                desc="iOS and Android app design with intuitive navigation, gesture design, and platform-native best practices."/>
+                desc="Attract and retain customers with compelling blogs, video, and copy that tells your brand story."/>
 
-              <ServiceCard title="🌐 Web Design"
+              <ServiceCard title="📧 Email & CRM"
                 url="https://bizondigital.com/services/web-development"
-                desc="Responsive web design that works flawlessly across all devices with stunning visuals and smooth interactions."/>
+                desc="Nurture leads and drive conversions with personalised email marketing and CRM integration."/>
 
-              <ServiceCard title="♿ Accessibility & UX Audit"
+              <ServiceCard title="📊 Marketing Audits & Consulting"
                 url="https://bizondigital.com/services/branding"
-                desc="Comprehensive design audits ensuring WCAG compliance, usability testing, and recommendations for enhancement."/>
+                desc="Get expert analysis and advice from top digital marketing consultants in Pune to improve your strategy."/>
 
             </motion.div>
 
@@ -199,17 +203,17 @@ export default function Home() {
 
             <motion.div initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-6">
-                About BizOn Digital - UI/UX Design Experts Pune
+                About BizOn Digital - Digital Marketing Agency Pune
               </h2>
 
               <p className="text-lg text-gray-600 leading-relaxed">
-                We are UI/UX design specialists in Pune dedicated to helping brands create exceptional digital experiences.
-                Since 2017, we've helped 120+ companies like yours enhance their digital presence through thoughtful design, user research, and strategic thinking.
+                We are the best digital marketing company in Pune, providing full-service online growth strategies for businesses of all sizes.
+                Since 2017, we've helped 120+ companies like yours increase traffic, leads, and sales through targeted campaigns and expert consulting.
               </p>
 
               <p className="mt-4 text-gray-600 leading-relaxed">
-                Our team combines design expertise with deep understanding of user behavior and business goals,
-                ensuring every design we create is not just beautiful, but also drives meaningful engagement and business results.
+                Our team combines marketing knowledge with deep industry insights and analytics,
+                ensuring every campaign we run drives measurable results and maximizes your return on investment.
               </p>
 
               <div className="flex gap-4 mt-8">
@@ -238,20 +242,20 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <motion.div className="text-center mb-16" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                How We Design - UI/UX Design Process
+                How We Market - Digital Marketing Process
               </h2>
               <p className="text-gray-600">
-                Our proven 6-step user-centered design process ensures your product is intuitive, beautiful, and effective
+                Our proven 6-step digital marketing process ensures your campaigns are targeted, measurable, and growth-focused
               </p>
             </motion.div>
 
             <motion.div className="grid md:grid-cols-3 gap-8" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-              <Process num="01" title="Discovery & Research" desc="Understand your users, business goals, and competitive landscape through interviews and analysis."/>
-              <Process num="02" title="Strategy & Planning" desc="Define user personas, user journeys, and design strategy aligned with business objectives."/>
-              <Process num="03" title="Wireframing & Prototyping" desc="Create wireframes and interactive prototypes to validate concepts and design solutions."/>
-              <Process num="04" title="Visual Design & UI" desc="Develop beautiful, consistent visual design system and polished user interfaces."/>
-              <Process num="05" title="Usability Testing" desc="Conduct user testing to identify issues and gather feedback for refinements."/>
-              <Process num="06" title="Launch & Iteration" desc="Deploy designs and continuously monitor performance, gather feedback, and improve."/>
+              <Process num="01" title="Audit & Research" desc="Analyze your current online presence, competitors and audience to identify opportunities."/>
+              <Process num="02" title="Strategy & Planning" desc="Develop a customised marketing plan outlining channels, budgets, and KPIs aligned with business goals."/>
+              <Process num="03" title="Campaign Setup" desc="Create ad campaigns, SEO optimisations, content calendars, and setup tracking for accurate measurement."/>
+              <Process num="04" title="Execution & Optimization" desc="Launch campaigns across PPC, social, email and SEO while continuously optimizing based on performance."/>
+              <Process num="05" title="Reporting & Analysis" desc="Provide transparent reports and deep analytics to understand ROI and guide next steps."/>
+              <Process num="06" title="Scaling & Growth" desc="Iterate on successful tactics, scale budgets, and explore new channels for sustained growth."/>
             </motion.div>
           </div>
         </section>
@@ -261,11 +265,11 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <motion.div className="text-center mb-16" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                Success Stories from Our Design Clients
+                Success Stories from Our Clients
               </h2>
 
               <p className="text-gray-600 max-w-2xl mx-auto">
-                See how brands in Pune and across India have transformed their digital presence with our world-class UI/UX design expertise.
+                See how brands in Pune and across India have grown traffic, leads, and revenue working with the top digital marketing agency Pune.
               </p>
             </motion.div>
 
@@ -293,8 +297,8 @@ export default function Home() {
             </motion.div>
 
             <motion.div className="grid md:grid-cols-2 gap-12" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-              <TeamMember name="Rahul Wanchoo" title="Founder & Design Strategy Lead" desc="Design strategist with proven expertise in transforming brands through beautiful UI/UX. Passionate about user-centered design and helping brands create meaningful digital experiences."/>
-              <TeamMember name="Suresh Khorate" title="Lead UI/UX Designer" desc="Expert in creating stunning, intuitive user interfaces and seamless experiences. Specializes in design systems, interaction design, and creating designs that users love."/>
+              <TeamMember name="Rahul Wanchoo" title="Founder & Marketing Strategist" desc="Marketing veteran with over a decade of experience driving results for Pune businesses through SEO, PPC and growth strategies."/>
+              <TeamMember name="Suresh Khorate" title="Head of Performance Marketing" desc="Specialist in paid media, analytics and conversion optimization. He ensures every campaign delivers measurable ROI."/>
             </motion.div>
           </div>
         </section>
@@ -304,31 +308,31 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <motion.div className="text-center mb-12" initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl font-extrabold mb-4">
-                UI/UX Design Questions
+                Digital Marketing FAQs
               </h2>
               <p className="text-gray-600">
-                Common questions about our UI/UX design services, design process, and deliverables
+                Common questions about our digital marketing services, strategy, and results
               </p>
             </motion.div>
 
             <motion.div className="space-y-4" variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{once: true}}>
-              <FAQItem q="What is your UI/UX design process?"
-                a="We follow a user-centered approach: Discovery & Research → User Personas & Journeys → Wireframing → Visual Design → Prototyping → Testing → Implementation."/>
+              <FAQItem q="What types of digital marketing services do you offer?"
+                a="We provide SEO, PPC, social media marketing, content marketing, email campaigns, and full-funnel growth strategies tailored to your business."/>
 
-              <FAQItem q="What deliverables do you provide?"
-                a="We deliver user research documents, wireframes, interactive prototypes, high-fidelity designs, design systems, reusable components, and design handoff documentation for developers."/>
+              <FAQItem q="How do you measure success?"
+                a="Success is measured using clear KPIs such as traffic, leads, conversions and ROI, all tracked through transparent reporting tools."/>
 
-              <FAQItem q="How long does a typical design project take?"
-                a="Website redesigns typically take 8-12 weeks depending on scope. App design projects range from 10-16 weeks. We can also provide expedited timelines for urgent projects."/>
+              <FAQItem q="How long before I see results?"
+                a="Organic SEO usually takes 3–6 months, while paid campaigns can generate leads immediately. We focus on both short-term wins and long-term growth."/>
 
-              <FAQItem q="Do you conduct user research and testing?"
-                a="Yes! User research, usability testing, and iterations are core to our process. We validate designs with real users to ensure they meet actual user needs."/>
+              <FAQItem q="Do you only work with Pune businesses?"
+                a="While we're based in Pune, we serve clients across India and globally. Many of our Pune clients appreciate working with local digital marketing consultants."/>
 
-              <FAQItem q="Can you design both web and mobile apps?"
-                a="Absolutely! We specialize in web design, iOS app design, Android app design, responsive design, and cross-platform digital experiences."/>
+              <FAQItem q="Can you manage my existing marketing efforts?"
+                a="Absolutely! We can audit and take over existing campaigns, refine strategy, and optimize performance for better results."/>
 
-              <FAQItem q="Do you provide ongoing design support after launch?"
-                a="Yes! We offer post-launch support including design iterations, analytics review, usability monitoring, and continuous optimization recommendations."/>
+              <FAQItem q="What makes you the best digital marketing company in Pune?"
+                a="Our local expertise, transparent reporting, and a results-driven team set us apart. We combine creativity with analytics to deliver top-tier marketing services."/>
             </motion.div>
           </div>
         </section>
@@ -338,16 +342,16 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <motion.div initial="hidden" whileInView="visible" variants={fadeUp} viewport={{once: true}}>
               <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
-                Ready To Transform Your Digital Design?
+                Ready To Grow Your Business Online?
               </h2>
 
               <p className="text-xl opacity-95 mb-10">
-                Schedule your FREE 30-minute consultation with our UI/UX design experts in Pune. 
-                Get design audit, project scope, timeline, and investment estimation with no obligations.
+                Schedule your FREE 30-minute consultation with our digital marketing consultants in Pune. 
+                Get a campaign audit, strategy outline, timeline, and investment estimation with no obligations.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://wa.me/917030323838?text=Hello!%20I%27m%20interested%20in%20responsive%20website%20design%20and%20digital%20marketing%20services%20in%20Pune."
+                <a href="https://wa.me/917030323838?text=Hello!%20I%27m%20interested%20in%20digital%20marketing%20services%20in%20Pune."
                    className="bg-white text-[#F97316] px-10 py-4 rounded-full font-bold hover:shadow-xl transition transform hover:-translate-y-1 text-center">
                    💬 Message on WhatsApp
                 </a>
@@ -410,7 +414,7 @@ export default function Home() {
                     <h4 className="font-bold text-xs text-[#2563EB] leading-tight">DIGITAL</h4>
                   </div>
                 </div>
-                <p className="text-gray-400">E-commerce website development in Pune. We build high-converting online stores with secure payments, inventory management, and strategies that drive sales growth.</p>
+                <p className="text-gray-400">Full-service digital marketing agency in Pune. We grow traffic, leads, and sales using proven SEO, PPC, social and content strategies.</p>
               </div>
 
               {/* Quick Links */}
@@ -476,7 +480,7 @@ export default function Home() {
                 {/* Copyright */}
                 <div className="text-right text-gray-400 text-sm">
                   <p>© 2025 BizOn Digital</p>
-                  <p>E-Commerce Website Development Pune</p>
+                  <p>Digital Marketing Agency Pune</p>
                   <p>All rights reserved</p>
                 </div>
               </div>
@@ -542,31 +546,31 @@ const testimonialData = [
     company: "Tech Startup",
     name: "Priya Sharma",
     stars: 5,
-    text: "BizOn Digital's UI/UX design completely transformed our app. The user-centered approach, beautiful interface, and seamless experience helped us increase user retention by 40%. Fantastic design expertise!"
+    text: "BizOn Digital's SEO and PPC campaigns helped us double our organic traffic in 6 months and cut customer acquisition cost by 30%. Their digital marketing consultants in Pune truly understand growth."
   },
   {
     company: "E-Commerce Brand",
     name: "Rohan Patel",
     stars: 5,
-    text: "Their design improved our conversion rate significantly. The research-driven approach and attention to detail in every interaction was outstanding. Highly professional UI/UX team!"
+    text: "Their paid ads strategy scaled our ROI to 10x and sales grew 3x quarter over quarter. BizOn Digital is the best digital marketing company in Pune for measurable results."
   },
   {
     company: "SaaS Company",
     name: "Neha Desai",
     stars: 5,
-    text: "Incredible work on our product redesign! The new interface is intuitive, visually stunning, and users love it. Our NPS score improved dramatically after the redesign!"
+    text: "Our lead volume tripled after their content marketing and email campaigns. The team at BizOn Digital is a top digital marketing agency Pune that delivers."
   },
   {
     company: "Digital Media Platform",
     name: "Aisha Khan",
     stars: 5,
-    text: "From wireframes to final design, their process was collaborative and transparent. The UI/UX design is world-class and our platform feels premium. Highly recommended!"
+    text: "Their social media campaigns grew our engagement by 400% and we gained thousands of subscribers in weeks. These consultants are experts in digital marketing services in Pune."
   },
   {
     company: "Mobile App Studio",
     name: "Vikram Singh",
     stars: 5,
-    text: "Best UI/UX design team in Pune! They brought our vision to life with beautiful interfaces and thoughtful user experiences. App ratings improved from 3.2 to 4.8 stars!"
+    text: "Our downloads increased by 70% thanks to their targeted ad campaigns and ASO work. BizOn Digital is truly a top digital marketing agency Pune."
   }
 ];
 
