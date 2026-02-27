@@ -3,7 +3,7 @@ import Head from "next/head";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-// Animation definitions (accessible to all components)
+// Animation definitions
 const fadeUp = {
   hidden:{opacity:0,y:40},
   visible:{opacity:1,y:0,transition:{duration:0.6}}

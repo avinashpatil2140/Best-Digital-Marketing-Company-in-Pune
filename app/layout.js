@@ -19,7 +19,7 @@ export const metadata = {
   authors: [{ name: "BizOn Digital", url: "https://bizondigital.com" }],
   openGraph: {
     title: "Digital Marketing Agency Pune | BizOn Digital",
-    description: "Leading digital marketing agency in Pune delivering SEO, PPC, social media and content marketing"
+    description: "Leading digital marketing agency in Pune delivering SEO, PPC, social media and content marketing",
     url: "https://bizondigital.com",
     siteName: "BizOn Digital",
     images: [
